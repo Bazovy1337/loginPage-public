@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #E4D189;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.logo {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCE694;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;   
+    border-bottom: 5px solid #82795B;
+}
+
+.nav {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.nav:nth-child(2) {
+    margin-left: 50px;
+}
+
+.loginW {
+    margin-top: 2%;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox {
+    width: 30%;
+    height: 50vh;
+    border-radius: 15px;
+    border: 3px solid #82795B;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(241, 223, 150, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(241, 223, 150, 1);
+    box-shadow: 0px 0px 24px 0px rgba(241, 223, 150, 1);
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.email {
+    display: block;
+    width: 100%;
+    height: 4vh;
+    margin-bottom: 10%;
+    padding: 10px;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #82795B;
+}
+
+.password {
+    display: block;
+    width: 100%;
+    height: 4vh;
+    padding: 10px;
+}
+
+.inputs p {
+    font-size: 35px;
+    margin-bottom: 12%;
+    text-align: center;
+}
+
+.inputText {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #fdeaa3;
+    font-size: 25px;
+    border: 1px solid #534e3b;
+}
+
+.submit {
+    width: 40%;
+    height: 4vh;
+    float: right;
+    margin-top: 5vh;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+    transition: 0.3s;
+    background-color: #82795B;
+    color: #fff;
+}
+
+.submit:hover {
+    background-color: #312e23;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.inputText:focus {
+    border: 1px solid #4422ff;
+}
+
+.forgor {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.forgor a:hover {
+    text-decoration: underline;
+}
+
+.forgor:visited {
+    color: #534e3b;
+}
+
+.forgor:active {
+    color: #534e3b;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active, a:visited{
+    text-decoration: none;
+    color: #006eff;
+}
+
+.register {
+    position: absolute;
+    left: 5%;
+}
+
+.register h2 {
+    margin-bottom: 20px;
+}
+
+.rejestr {
+    background-color: #42b72a;
+    color: #fff !important;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.rejestr:hover {
+    transition: 0.3s;
+    background-color: #379923;
+}
+
+.eImage {
+    height: 4vh;
+    display: inline;
+}
